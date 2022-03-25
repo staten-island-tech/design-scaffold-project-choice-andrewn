@@ -1,9 +1,7 @@
 :root {
     /* colors */
-    --light-green: rgb(228, 228, 202);
-    --dark-green: rgb(101, 149, 28);
-    --dark-orange: rgb(230, 130, 0);
-    --light-orange: rgb(255, 208, 146);
+    --light-green: rgb(231, 255, 200);
+    --dark-green: rgb(14, 140,11);
     --gray: rgba(216, 216, 216, 0.95);
     /* intentions */
     --primary: var(--light-green);
