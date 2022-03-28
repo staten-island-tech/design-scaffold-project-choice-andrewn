@@ -65,25 +65,13 @@ const menu = [
       price: 6,
     },
     {
-      url: "https://www.thefoodinmybeard.com/content/burgers/lucky/luckyburger7.jpg",
+      url: "http://ocdn.eu/images/pulscms/ZjQ7MDA_/22011ec17d8af96d65cc66e5d242fd57.jpeg",
       item: "POOPY PATTY",
       description: "Someone made an oopsie",
       price: 7,
     },
     {
-      url: "https://www.thefoodinmybeard.com/content/burgers/lucky/luckyburger7.jpg",
-      item: "POOPY PATTY",
-      description: "Someone made an oopsie",
-      price: 7,
-    },
-    {
-      url: "https://www.thefoodinmybeard.com/content/burgers/lucky/luckyburger7.jpg",
-      item: "POOPY PATTY",
-      description: "Someone made an oopsie",
-      price: 7,
-    },
-    {
-      url: "https://www.thefoodinmybeard.com/content/burgers/lucky/luckyburger7.jpg",
+      url: "https://pbs.twimg.com/media/FMXTZyGaQAAJTmc?format=jpg&name=small",
       item: "PUTIN POUTINE",
       description: "Invade your tastebuds instead",
       price: 5,
@@ -113,13 +101,13 @@ const menu = [
         price: 32,
       },
     {
-        url: "https://cdn.shopify.com/s/files/1/0726/7481/products/Exercise_Fries.jpg?v=1534701850",
+        url: "images/chili slime.PNG",
         item: "CHILI SLIME",
         description: "Even the grease feels real",
         price: 6,
       },
     {
-        url: "https://cdn.shopify.com/s/files/1/0726/7481/products/Exercise_Fries.jpg?v=1534701850",
+        url: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/ap/odd%20unicorn%20meat-178534363_v2.jpg",
         item: "UNICORN MEAT",
         description: "You can technically eat it?",
         price: 16,
