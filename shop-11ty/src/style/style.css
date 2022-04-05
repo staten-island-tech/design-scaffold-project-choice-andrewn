@@ -1,0 +1,19 @@
+@import url("variables.css");
+
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.header {
+background-color: rgba(196, 196, 196, 0.95);
+height: 8vh;
+}
+
+.nav-button{
+  font-size: var(--h2);
+}

@@ -1,0 +1,13 @@
+:root {
+    /* colors */
+    --light-green: rgb(231, 255, 200);
+    --dark-green: rgb(14, 140,11);
+    --gray: rgba(216, 216, 216, 0.95);
+    /* intentions */
+    --primary: var(--light-green);
+    --secondary: var(--dark-green);
+    /* typography */
+    --h1: 10vw;
+    --h2: 1.953rem;
+    --h3: 1vw;
+  }
