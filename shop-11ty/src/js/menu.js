@@ -124,9 +124,28 @@ const merch = [
     description: "You can technically eat it?",
     price: 16,
   },]
+
+  const homeHero = [
+    {
+      url: "https://ak.picdn.net/shutterstock/videos/33407110/thumb/1.jpg",
+      item: "SPARKLING SAUSAGE WATER",
+      price: 4,
+    },   
+      {
+        url: "https://pbs.twimg.com/media/FMXTZyGaQAAJTmc?format=jpg&name=small",
+        item: "PUTIN POUTINE",
+        price: 5,
+      },
+      {
+        url: "http://2.bp.blogspot.com/-aHVgoooY6k4/U8P2U0PpNQI/AAAAAAAAAbI/mqsWChyC4eg/w1200-h630-p-k-no-nu/86+nasty.jpg",
+        item: "NASTY PATTY",
+        price: 12,
+      },
+  ]
   export { menuFood };
   export { menuDrinks };
   export { menuDessert };
   export { menuSides };
   export { merch };
+  export {homeHero}
   

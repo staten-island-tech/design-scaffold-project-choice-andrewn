@@ -7,7 +7,8 @@
     --primary: var(--light-green);
     --secondary: var(--dark-green);
     /* typography */
-    --h1: 10vw;
-    --h2: 1.953rem;
-    --h3: 1vw;
+    --h1: 6.854rem;
+    --h2: 4.236rem;
+    --h3: 2.618rem;
+    --h4: 1.618rem;
   }
