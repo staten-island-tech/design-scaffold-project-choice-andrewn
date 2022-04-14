@@ -52,7 +52,7 @@ const menuDessert = [
 
 ]
 
-  const menuDrinks = [ 
+  const menuDrink = [ 
     {
     url: "https://ak.picdn.net/shutterstock/videos/33407110/thumb/1.jpg",
     item: "SPARKLING SAUSAGE WATER",
@@ -143,7 +143,7 @@ const merch = [
       },
   ]
   export { menuFood };
-  export { menuDrinks };
+  export { menuDrink };
   export { menuDessert };
   export { menuSides };
   export { merch };
