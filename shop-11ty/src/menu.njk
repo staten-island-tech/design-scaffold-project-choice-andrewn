@@ -14,8 +14,19 @@
 
 <body>
 {% include 'nav.njk' %}
+<section class="section-container">
+  <div>
+    <h1>MENU</h1>
+    <ul class="foodMenu">
+      {%- for food in collections.food -%}
+        <div class="">
+          <h2>{{food.item}}</h2>
+        </div>
+      {%- endfor -%}
+    </ul>
+  </div>
 
-<p>FOOD</p>
+</section>
 </body>
-<script type="module" src="./js/main.js"></script>
+<script type="module" src="../js/main.js"></script>
 </html>
