@@ -3,4 +3,5 @@
   item: LEPRECHAUN BURGER
   description: I definitely don't feel lucky right now
   price: 8
+  tags: ["dessert"]
 ---

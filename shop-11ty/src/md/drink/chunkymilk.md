@@ -3,4 +3,5 @@
     item: CHUNKY MILK
     description: Milk, with all of that wholesome pulp
     price: 7
+    tags: ["drink"]
 ---

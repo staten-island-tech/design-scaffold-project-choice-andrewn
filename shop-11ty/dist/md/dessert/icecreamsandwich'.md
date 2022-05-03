@@ -3,4 +3,5 @@
     item: ICE CREAM SANDWICH
     description: For your ice cream sandwich needs
     price: 5
+    tags: ["dessert"]
 ---

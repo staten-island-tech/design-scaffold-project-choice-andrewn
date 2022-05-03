@@ -3,4 +3,5 @@
     item: SOCK FRIES
     description: Keep your food warm and your feet warmer
     price: 32
+    tags: ["merch"]
 ---

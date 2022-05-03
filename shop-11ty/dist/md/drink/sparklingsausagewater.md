@@ -3,4 +3,5 @@
     item: SPARKLING SAUSAGE WATER
     description: It sparkles cause it's boiling
     price: 4
+    tags: ["featured", "drink"]
 ---

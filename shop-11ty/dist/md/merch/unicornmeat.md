@@ -3,4 +3,5 @@
     item: UNICORN MEAT
     description: You can technically eat it?
     price: 16
+    tags: ["merch"]
 ---

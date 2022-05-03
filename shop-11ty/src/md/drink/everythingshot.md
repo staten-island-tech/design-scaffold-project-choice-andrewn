@@ -3,4 +3,5 @@
     item: EVERYTHING SHOT
     description: I feel it crawling in my throat
     price: 10
+    tags: ["drink"]
 ---

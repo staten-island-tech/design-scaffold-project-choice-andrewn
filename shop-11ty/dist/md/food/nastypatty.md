@@ -3,4 +3,5 @@
         item: NASTY PATTY
         description: Guess where it's oozing from
         price: 12
+        tags: ["featured", "food"]
 ---

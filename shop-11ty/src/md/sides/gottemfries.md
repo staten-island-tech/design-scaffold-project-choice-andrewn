@@ -3,4 +3,5 @@
     item: GOTTEM FRIES
     description: Nice.
     price: 69
+    tags: ["sides"]
 ---

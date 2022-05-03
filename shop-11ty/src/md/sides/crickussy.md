@@ -3,4 +3,5 @@
   item: CRICKUSSY
   description: Sushi with a show
   price: 7
+  tags: ["sides"]
 ---

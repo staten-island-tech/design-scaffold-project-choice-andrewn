@@ -3,4 +3,5 @@
     item: CHEESY FRIES
     description: Guess where the extra flavor comes from
     price: 8
+    tags: ["sides"]
 ---

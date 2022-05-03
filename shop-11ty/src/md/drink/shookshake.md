@@ -3,4 +3,5 @@
     item: SHOOK SHAKE
     description: This shake will have you shook
     price: 12
+    tags: ["drink"]
 ---

@@ -20,7 +20,10 @@
     <ul class="foodMenu">
       {%- for food in collections.food -%}
         <div class="">
-          <h2>{{food.item}}</h2>
+          <img src="{{food.url}}" alt="{{food.data.item}}">
+          <h2>{{food.data.item}}</h2>
+          <h3>{{food.data.description}}</h3>
+          <h4>Price: {{food.data.price}}</h4>
         </div>
       {%- endfor -%}
     </ul>

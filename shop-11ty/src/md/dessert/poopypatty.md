@@ -3,4 +3,5 @@
   item: POOPY PATTY
   description: Someone made an oopsie
   price: 7
+  tags: ["dessert"]
 ---

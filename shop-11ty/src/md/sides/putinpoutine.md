@@ -3,4 +3,5 @@
     item: PUTIN POUTINE
     description: Invade your tastebuds instead
     price: 5
+    tags: ["featured", "sides"]
 ---
