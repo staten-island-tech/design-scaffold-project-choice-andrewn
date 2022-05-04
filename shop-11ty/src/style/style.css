@@ -10,6 +10,19 @@ body,
   font-family: 'Open Sans', sans-serif;
 }
 
+h1{
+  font-size: var(--h1);
+}
+h2{
+  font-size: var(--h2);
+}
+h3{
+  font-size: var(--h3);
+}
+h4{
+  font-size: var(--h4);
+}
+
 .nav-button{
   font-size: var(--h2);
   margin-left: 2vw;
@@ -32,4 +45,15 @@ height: 8vh;
 .cart{
   height: auto;
   width: 3.5vw;
+}
+
+.menu-price{
+  font-size: var(--h3);
+}
+
+.career-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
