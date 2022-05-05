@@ -13,6 +13,18 @@
 </head>
 
 <body>
-{% include 'nav.njk' %}
+  {% include 'nav.njk' %}
+  <section class="">
+    <div>
+      <h1>MERCH</h1>
+      <ul class="merchMenu">
+        {%- for merch in collections.merch -%}
+          <div class="">
+            <img src="{{merch.url}}" alt="{{merch.data.item}}">
+            <h2 class="menu-item" >{{merch.data.item}}</h2>
+            <h3 class="menu-description" >{{merch.data.description}}</h3>
+            <h4 class="menu-price" >Price: {{merch.data.price}}</h4>
+          </div>
+        {%- endfor -%}
 </body>
 </html>

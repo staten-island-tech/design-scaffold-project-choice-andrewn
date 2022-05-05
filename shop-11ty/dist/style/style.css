@@ -51,9 +51,20 @@ height: 8vh;
   font-size: var(--h3);
 }
 
-.career-container{
+.text-container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.menu-img{
+  width: fit-content;
+  height: 18rem;
+  object-fit: cover;
+}
+
+.foodMenu{
+  display: flex;
+  flex-flow: wrap;
 }

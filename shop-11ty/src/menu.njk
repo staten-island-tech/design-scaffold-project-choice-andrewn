@@ -20,7 +20,7 @@
     <ul class="foodMenu">
       {%- for food in collections.food -%}
         <div class="">
-          <img src="{{food.url}}" alt="{{food.data.item}}">
+          <img class="menu-img" src="{{food.data.url}}" alt="{{food.data.item}}">
           <h2 class="menu-item" >{{food.data.item}}</h2>
           <h3 class="menu-description" >{{food.data.description}}</h3>
           <h4 class="menu-price" >Price: {{food.data.price}}</h4>
