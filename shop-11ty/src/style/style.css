@@ -58,19 +58,29 @@ height: 8vh;
 }
 
 .menu-img{
-  width: 24vw;
+  width: 30vw;
   height: 24vw;
   object-fit: cover;
+  border-radius: 20px;
+}
+
+.menu-text{
+  
 }
 
 .menu-card{
   display: flex;
   flex-flow: column;
   align-items: center;
-  width: 24vw;
+  width: 34vw;
+  padding: 2vw;
+  margin: 2vw;
+  border-radius: 20px;
+  background-color: var(--light-green);
 }
 
 .foodMenu{
   display: flex;
   flex-flow: wrap;
+  justify-content: space-evenly;
 }
