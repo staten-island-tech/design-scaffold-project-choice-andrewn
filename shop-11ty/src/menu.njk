@@ -21,9 +21,11 @@
       {%- for food in collections.food -%}
         <div class="menu-card">
           <img class="menu-img" src="{{food.data.url}}" alt="{{food.data.item}}">
+          <div class="menu-text">
           <h2 class="menu-item" >{{food.data.item}}</h2>
           <h3 class="menu-description" >{{food.data.description}}</h3>
           <h4 class="menu-price" >Price: {{food.data.price}}</h4>
+          </div>
         </div>
       {%- endfor -%}
     </ul>
