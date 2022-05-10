@@ -12,6 +12,8 @@ body,
 
 h1{
   font-size: var(--h1);
+  text-align: center;
+  margin: 1rem;
 }
 h2{
   font-size: var(--h2);
@@ -58,29 +60,37 @@ height: 8vh;
 }
 
 .menu-img{
-  width: 30vw;
-  height: 24vw;
+  width: 100%;
+  height: 80%;
   object-fit: cover;
   border-radius: 20px;
-}
-
-.menu-text{
-  
 }
 
 .menu-card{
   display: flex;
   flex-flow: column;
   align-items: center;
-  width: 34vw;
+  width: 32vw;
   padding: 2vw;
   margin: 2vw;
   border-radius: 20px;
   background-color: var(--light-green);
 }
 
+
+.menu-text{
+  text-align: center;
+  margin-top: 1vw;
+}
+
 .foodMenu{
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
+}
+
+.section-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
