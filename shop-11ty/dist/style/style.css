@@ -71,7 +71,9 @@ height: 8vh;
   flex-flow: column;
   align-items: center;
   width: 32vw;
+  height: 32vw;
   padding: 2vw;
+  padding-bottom: 0.5vw;
   margin: 2vw;
   border-radius: 20px;
   background-color: var(--light-green);
@@ -93,4 +95,9 @@ height: 8vh;
   display: flex;
   flex-flow: column;
   justify-content: center;
+}
+
+.add-button {
+  width: 2vw;
+  height: auto;
 }
