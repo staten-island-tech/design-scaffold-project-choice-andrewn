@@ -44,11 +44,6 @@ height: 8vh;
   display: flex;
 }
 
-.cart{
-  height: auto;
-  width: 3.5vw;
-}
-
 .menu-price{
   font-size: var(--h3);
 }
@@ -77,12 +72,17 @@ height: 8vh;
   margin: 2vw;
   border-radius: 20px;
   background-color: var(--light-green);
+  position: relative;
 }
 
 
-.menu-text{
+.card-text{
   text-align: center;
-  margin-top: 1vw;
+  margin-top: .5vw;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .foodMenu{
@@ -97,7 +97,10 @@ height: 8vh;
   justify-content: center;
 }
 
-.add-button {
-  width: 2vw;
-  height: auto;
+.button {
+  width: 4vw;
+  height: 4vw;
+  position: absolute;
+  right: 5rem;
+  bottom: 2.5rem;
 }
