@@ -4,4 +4,5 @@
         description: The hairball is part of the experience
         price: 7
         tags: ["food"]
+        id: 2
 ---

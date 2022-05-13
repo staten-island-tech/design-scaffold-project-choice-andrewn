@@ -4,4 +4,5 @@
     description: It sparkles cause it's boiling
     price: 4
     tags: ["featured", "drink"]
+    id: 8
 ---
