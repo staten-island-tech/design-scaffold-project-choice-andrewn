@@ -8,13 +8,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="./style/style.css">
   <title>Shop Shaq</title>
 </head>
 
 <body>
 {% include 'nav.njk' %}
-<div class="homeHero"></div>
+
+<ul class="homeHero">
+  <div class="home-container">
+    {%- for featured in collections.featured -%}
+    <img class="home-img" src="{{featured.data.url}}" alt="{{featured.data.item}}">
+    <h2 class="home-item">{{featured.data.item}}</h2>
+    <h4 class="home-price">Price: {{featured.data.price}}</h4>
+    {%- endfor -%}
+  </div>
+</ul>
 
 </body>
 </html>
