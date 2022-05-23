@@ -18,9 +18,15 @@
 <ul class="homeHero">
   <div class="home-container">
     {%- for featured in collections.featured -%}
-    <img class="home-img" src="{{featured.data.url}}" alt="{{featured.data.item}}">
-    <h2 class="home-item">{{featured.data.item}}</h2>
-    <h4 class="home-price">Price: {{featured.data.price}}</h4>
+    <div class="home-card">
+      <img class="home-img" src="{{featured.data.url}}" alt="{{featured.data.item}}">
+      <div class="home-text">
+        <h2 class="home-item">{{featured.data.item}}</h2>
+        <h4 class="home-price">Price: {{featured.data.price}}</h4>
+      </div>
+    </div>
+
+
     {%- endfor -%}
   </div>
 </ul>
