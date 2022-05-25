@@ -73,6 +73,11 @@ height: 8vh;
   border-radius: 20px;
   background-color: var(--light-green);
   position: relative;
+  transition: all 0.5s;
+}
+
+.menu-card:hover {
+  transform: scale(1.1);
 }
 
 
@@ -106,7 +111,7 @@ height: 8vh;
 }
 
 .home-container{
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 75%;
   scroll-snap-type: y mandatory;
 }
@@ -114,6 +119,7 @@ height: 8vh;
 .home-card{
   position: relative;
   scroll-snap-align: start;
+
 }
 
 .home-img{
