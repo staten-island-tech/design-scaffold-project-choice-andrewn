@@ -25,11 +25,71 @@
         <h4 class="home-price">${{featured.data.price}}</h4>
       </div>
     </div>
-
-
     {%- endfor -%}
   </div>
 </ul>
+
+<div class="section-container">
+  <div class="shopping-cart">
+    <button class="">Clear Cart</button>
+    <h4>Cart</h4>
+    <h5 class="total"></h5>
+    <div class="cart"></div>
+  </div>
+  <h1>MENU</h1>
+  <ul class="foodMenu">
+    {%- for food in collections.food -%}
+    <div class="menu-card" id="{{food.data.id}}">
+      <img class="menu-img" src="{{food.data.url}}" alt="{{food.data.item}}">
+      <div class="card-text">
+        <h2 class="menu-item">{{food.data.item}}</h2>
+        <h3 class="menu-description">{{food.data.description}}</h3>
+        <h4 class="menu-price">Price: {{food.data.price}}</h4>
+      </div>
+    </div>
+    {%- endfor -%}
+  </ul>
+  <h1>DRINKS</h1>
+  <ul class="drinkMenu">
+    {%- for drink in collections.drink -%}
+    <div class="menu-card" id="{{drink.data.id}}">
+      <img class="menu-img" src="{{drink.data.url}}" alt="{{drink.data.item}}">
+      <div class="card-text">
+        <h2 class="menu-item">{{drink.data.item}}</h2>
+        <h3 class="menu-description">{{drink.data.description}}</h3>
+        <h4 class="menu-price">Price: {{drink.data.price}}</h4>
+      </div>
+    </div>
+    {%- endfor -%}
+  </ul>
+  <h1>SIDES</h1>
+  <ul class="sidesMenu">
+    {%- for sides in collections.sides -%}
+    <div class="menu-card" id="{{sides.data.id}}">
+      <img class="menu-img" src="{{sides.data.url}}" alt="{{sides.data.item}}">
+      <div class="card-text">
+        <h2 class="menu-item">{{sides.data.item}}</h2>
+        <h3 class="menu-description">{{sides.data.description}}</h3>
+        <h4 class="menu-price">Price: {{sides.data.price}}</h4>
+      </div>
+    </div>
+    {%- endfor -%}
+  </ul>
+  <h1>DESSERTS</h1>
+  <ul class="dessertMenu">
+    {%- for dessert in collections.dessert -%}
+    <div class="menu-card" id="{{dessert.data.id}}">
+      <img class="menu-img" src="{{dessert.data.url}}" alt="{{dessert.data.item}}">
+      <div class="card-text">
+        <h2 class="menu-item">{{dessert.data.item}}</h2>
+        <h3 class="menu-description">{{dessert.data.description}}</h3>
+        <h4 class="menu-price">Price: {{dessert.data.price}}</h4>
+      </div>
+    </div>
+    {%- endfor -%}
+  </ul>
+
+
 
 </body>
 </html>

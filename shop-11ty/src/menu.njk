@@ -15,12 +15,6 @@
 <body>
   {% include 'nav.njk' %}
   <div class="section-container">
-    <div class="shopping-cart">
-      <button class="">Clear Cart</button>
-      <h4>Cart</h4>
-      <h5 class="total"></h5>
-      <div class="cart"></div>
-    </div>
     <h1>MENU</h1>
     <ul class="foodMenu">
       {%- for food in collections.food -%}
@@ -31,8 +25,6 @@
           <h3 class="menu-description">{{food.data.description}}</h3>
           <h4 class="menu-price">Price: {{food.data.price}}</h4>
         </div>
-        <button type="button"><img class="add button"
-            src="https://www.betterinboone.org/wp-content/uploads/2017/09/plus.png" alt=""></button>
       </div>
       {%- endfor -%}
     </ul>
@@ -46,8 +38,6 @@
           <h3 class="menu-description">{{drink.data.description}}</h3>
           <h4 class="menu-price">Price: {{drink.data.price}}</h4>
         </div>
-        <button type="button"><img class="add button"
-            src="https://www.betterinboone.org/wp-content/uploads/2017/09/plus.png" alt=""></button>
       </div>
       {%- endfor -%}
     </ul>
@@ -61,8 +51,6 @@
           <h3 class="menu-description">{{sides.data.description}}</h3>
           <h4 class="menu-price">Price: {{sides.data.price}}</h4>
         </div>
-        <button type="button"><img class="add button"
-            src="https://www.betterinboone.org/wp-content/uploads/2017/09/plus.png" alt=""></button>
       </div>
       {%- endfor -%}
     </ul>
@@ -76,8 +64,6 @@
           <h3 class="menu-description">{{dessert.data.description}}</h3>
           <h4 class="menu-price">Price: {{dessert.data.price}}</h4>
         </div>
-        <button type="button"><img class="add button"
-            src="https://www.betterinboone.org/wp-content/uploads/2017/09/plus.png" alt=""></button>
       </div>
       {%- endfor -%}
     </ul>

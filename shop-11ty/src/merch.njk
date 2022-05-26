@@ -14,17 +14,20 @@
 
 <body>
   {% include 'nav.njk' %}
-  <section class="">
-    <div>
-      <h1>MERCH</h1>
-      <ul class="merchMenu">
-        {%- for merch in collections.merch -%}
-          <div class="">
-            <img src="{{merch.data.url}}" alt="{{merch.data.item}}">
-            <h2 class="menu-item" >{{merch.data.item}}</h2>
-            <h3 class="menu-description" >{{merch.data.description}}</h3>
-            <h4 class="menu-price" >Price: {{merch.data.price}}</h4>
-          </div>
-        {%- endfor -%}
+  <div class="section-container">
+    <h1>MENU</h1>
+    <ul class="merchMenu">
+      {%- for merch in collections.merch -%}
+      <div class="menu-card" id="{{merch.data.id}}">
+        <img class="menu-img" src="{{merch.data.url}}" alt="{{merch.data.item}}">
+        <div class="card-text">
+          <h2 class="menu-item">{{merch.data.item}}</h2>
+          <h3 class="menu-description">{{merch.data.description}}</h3>
+          <h4 class="menu-price">Price: {{merch.data.price}}</h4>
+        </div>
+      </div>
+      {%- endfor -%}
+    </ul>
+
 </body>
 </html>

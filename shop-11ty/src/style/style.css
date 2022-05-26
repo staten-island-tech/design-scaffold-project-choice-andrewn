@@ -113,6 +113,12 @@ height: 8vh;
   justify-content: space-evenly;
 }
 
+.merchMenu{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
 .section-container{
   display: flex;
   flex-flow: column;
