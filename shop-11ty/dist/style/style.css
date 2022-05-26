@@ -220,3 +220,47 @@ height: 8vh;
     transform: rotateZ(-1deg);
   }
 }
+
+@media screen and (max-width: 1065px) {
+  .menu-card{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 40vw;
+    height: 40vw;
+    padding: 2vw;
+    padding-bottom: 0.5vw;
+    margin: 2vw;
+    border-radius: 20px;
+    background-color: var(--light-green);
+    position: relative;
+    transition: all 0.5s;
+    box-shadow: 1.2rem 1.2rem 0.2rem 0.05rem var(--secondary)
+  }
+
+  h2{
+    font-size: var(--h3);
+  }
+  h3{
+    font-size: var(--h4);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu-card{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 80vw;
+    height: 80vw;
+    padding: 2vw;
+    padding-bottom: 0.5vw;
+    margin: 5vw;
+    border-radius: 20px;
+    background-color: var(--light-green);
+    position: relative;
+    transition: all 0.5s;
+    box-shadow: 1.2rem 1.2rem 0.2rem 0.05rem var(--secondary)
+  }
+
+}
