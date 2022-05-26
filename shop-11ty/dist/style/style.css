@@ -74,10 +74,12 @@ height: 8vh;
   background-color: var(--light-green);
   position: relative;
   transition: all 0.5s;
+  box-shadow: 1.2rem 1.2rem 0.2rem 0.05rem var(--secondary)
 }
 
 .menu-card:hover {
   transform: scale(1.1);
+  box-shadow: 0.8rem 1.4rem 0.1rem 0.05rem var(--secondary);
 }
 
 
@@ -91,6 +93,21 @@ height: 8vh;
 }
 
 .foodMenu{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+.drinkMenu{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+.sidesMenu{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+.dessertMenu{
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
@@ -154,4 +171,46 @@ height: 8vh;
 .slogan{
   font-size: var(--h2);
   color: var(--secondary);
+}
+
+.logo:hover {
+  animation: shake 5s infinite;
+}
+
+@keyframes shake {
+  0% {
+    top: 0%;
+  }
+  2% {
+    top: 5%;
+    transform: rotateZ(8deg);
+  }
+  5% {
+    top: 0%;
+    transform: rotateZ(-6deg);
+  }
+  9% {
+    top: 4%;
+    transform: rotateZ(6deg);
+  }
+  14% {
+    top: 0%;
+    transform: rotateZ(-4deg);
+  }
+  20% {
+    top: 3%;
+    transform: rotateZ(4deg);
+  }
+  26% {
+    top: 0%;
+    transform: rotateZ(-2deg);
+  }
+  34% {
+    top: 2%;
+    transform: rotateZ(2deg);
+  }
+  43% {
+    top: 0%;
+    transform: rotateZ(-1deg);
+  }
 }
